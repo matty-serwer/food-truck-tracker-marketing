@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Would you like to become a Food Truck TrackR partner?
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          We're looking for sharp investors.
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +21,7 @@ function Footer() {
               placeholder='Your Email'
               className='footer-input'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Inquire</Button>
           </form>
         </div>
       </section>
@@ -64,7 +64,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL <i className='fab fa-typo3'></i>
+              F<i class="fas fa-truck">TR</i>
             </Link>
           </div>
           <small className='website-rights'>© 2020 Food Truck TrackR</small>

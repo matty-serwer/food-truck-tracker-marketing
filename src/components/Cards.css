@@ -1,3 +1,5 @@
+@import '../colors.css';
+
 .cards {
     padding: 4rem;
     background: #fff;
@@ -5,6 +7,7 @@
   
   h1 {
     text-align: center;
+    color: var(--blue)
   }
   
   .cards-container {
@@ -66,7 +69,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: var(--blue);
     box-sizing: border-box;
   }
   
@@ -91,10 +94,12 @@
   
   .card-item-info {
     padding: 20px 30px 30px;
+    background: var(--blue);
+    height: 100%;
   }
   
   .card-item-text {
-    color: #252e48;
+    color: var(--grey);
     font-size: 18px;
     line-height: 24px;
   }

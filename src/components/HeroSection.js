@@ -6,23 +6,23 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-2.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      {/* <video src='/videos/FT4K.mp4' autoPlay loop muted /> */}
+      <h1>Food Truck TrackR</h1>
+      <p>Track the best food trucks in your area!</p>
       <div className='hero-btns'>
-        <Button
-          className='btn'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
         <Button
           className='btn'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          FIND GRUB!
+        </Button>
+        <Button
+          className='btn'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GOT A TRUCK?
         </Button>
       </div>
     </div>

@@ -1,3 +1,5 @@
+@import '../colors.css';
+
 .footer-container {
     background-color: #242424;
     padding: 4rem 0 2rem 0;
@@ -88,8 +90,12 @@
 /* Social Icons */
 
 .social-icon-link {
-    color: #fff;
+    color: var(--pink);
     font-size: 24px;
+}
+
+.social-icon-link:hover {
+    color: var(--sea-foam);
 }
 
 .social-media {
@@ -122,6 +128,7 @@
     align-items: center;
     margin-bottom: 16px;
 }
+
 
 .website-rights {
     color: #fff;

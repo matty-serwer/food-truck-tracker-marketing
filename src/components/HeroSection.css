@@ -1,3 +1,12 @@
+/* 
+#A4D4D9 sea foam
+#008FA6 cream blue
+#5E0012 burgundy
+#DA4359 something pink
+#1F2123 grey 
+*/
+
+
 video {
     object-fit: cover;
     width: 100%;
@@ -7,26 +16,26 @@ video {
 }
 
 .hero-container {
-    /* background: url(/images/img-home.jpg) center center/cover no-repeat; */
+    background: url(/images/bnw-streamline.jpg) center center/cover no-repeat;
     height: calc(100vh - 80px);
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
     object-fit: contain;
 }
 
 .hero-container > h1 {
-    color: #fff;
+    color: #DA4359;
     font-size: 100px;
     margin-top: -100px;
 }
 
 .hero-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: #DA4359;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -57,7 +66,7 @@ video {
     }
 
     .hero-container > p {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .btn-mobile {
