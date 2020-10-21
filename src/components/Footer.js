@@ -64,7 +64,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              F<i class="fas fa-truck">TR</i>
+              F<i class="fas fa-truck"></i>TR
             </Link>
           </div>
           <small className='website-rights'>© 2020 Food Truck TrackR</small>

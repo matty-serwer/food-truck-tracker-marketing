@@ -6,6 +6,10 @@
 #1F2123 grey 
 */
 
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .navbar {
     background: var(--grey);
     height: 80px;
@@ -35,6 +39,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
   
   .fa-typo3 {
