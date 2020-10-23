@@ -14,6 +14,7 @@ function HeroSection() {
           className='btn'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          url='https://wizardly-liskov-b75379.netlify.app/'
         >
           FIND GRUB!
         </Button>
@@ -21,6 +22,7 @@ function HeroSection() {
           className='btn'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          url='https://wizardly-liskov-b75379.netlify.app/'
         >
           GOT A TRUCK?
         </Button>
