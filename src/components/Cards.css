@@ -2,7 +2,7 @@
 
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: #d7e6ea;
   }
   
   h1 {
@@ -15,7 +15,7 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   
@@ -25,7 +25,7 @@
   }
   
   .cards-items {
-    margin-bottom: 24px;
+    margin-bottom: 50px;
   }
   
   .card-item {

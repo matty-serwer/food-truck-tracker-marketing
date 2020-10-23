@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from './components/pages/Home'
-import About from './components/pages/About'
 import Products from './components/pages/Products'
 import SignUp from './components/pages/SignUp'
 
@@ -17,7 +16,6 @@ function App() {
           <Route path='/about' component={About} />
           <Route path='/products' component={Products} />
           <Route path='/sign-up' component={SignUp} />
-          <Route path='/about' component={About} />
         </Switch>
       </Router>
     </>
