@@ -55,16 +55,14 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
+              <a href="https://wizardly-liskov-b75379.netlify.app/"
+                className='nav-links'
+                onClick={closeMobileMenu}>
                 Sign Up
-              </Link>
+                </a>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline' url='https://wizardly-liskov-b75379.netlify.app/'>SIGN UP</Button>}
         </div>
       </nav>
     </>
