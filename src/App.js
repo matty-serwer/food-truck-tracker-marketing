@@ -5,6 +5,7 @@ import "./App.css";
 import Home from './components/pages/Home'
 import Products from './components/pages/Products'
 import SignUp from './components/pages/SignUp'
+import About from './components/pages/About'
 
 function App() {
   return (
